@@ -14,9 +14,9 @@ class ADCS(libKernel.TaskTemplate):
     def Initialize(self):
         print("[ADCS Init]")
     def Run(self):
-        print(f"[ADCS Run] получила: t = {self.t}, cmd = {self.cmd}, x = {self.x}")
+        print(f"[ADCS Run] получила: t = {self.t}, cmd = {self.cmd}")
         self.x += 1
-        print(f"[ADCS Run] отправляю: t = {self.t}, cmd = {self.cmd}, x = {self.x}")
+        print(f"[ADCS Run] отправляю: t = {self.t}, cmd = {self.cmd}")
     # def Run(self):
     #     print(f"[ADCS Run] t = {self.t} x += 1")
     #     self.x += 1
